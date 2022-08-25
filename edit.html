@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: UpConstruction - v1.1.0
+  * Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/tnhb_logo.png" alt="">
+
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="Add.html" >Add Project</a></li>
+          <li><a href="./report.html">Report</a></li>
+          <li><a href="index.html">Logout</a></li>
+
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/breadcrumbs-bg.jpg');">
+      <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+
+        <h2>Edit Project</h2>
+        <!-- <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Sample Inner Page</li>
+        </ol> -->
+
+      </div>
+    </div><!-- End Breadcrumbs -->
+    <section id="get-started" class="get-started section-bg">
+      <div class="container">
+
+        <div class="row justify-content-between gy-4">
+
+          <!-- <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
+            <div class="content">
+              <h3>Add New Project</h3>
+
+            </div>
+          </div> -->
+
+          <div class="col-lg-5" data-aos="fade">
+            <form action="forms/quote.php" method="post" class="php-email-form">
+              <h3>Project Details</h3>
+
+
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="108 flats at Shenoy Nagar" formControlName="firstname">
+                </div>
+                <!-- <div class="col">
+                  <input type="text" class="form-control" placeholder="Last Name" formControlName="lastname">
+                </div> -->
+              </div>
+
+              <!-- PERSONAL INFORMATION -->
+              <div class="row mt-5">
+                <div class="col form-heading">
+                  <h6 class="text-secondary fst-italic">Value Details</h6>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col">
+                  <h6 class="text-secondary" >Contractor Name</h6>
+                  <input type="text" class="form-control" placeholder="M/s Sri Balaji Associates" formControlName="firstname">
+                </div>
+                <div class="col">
+                  <div class="row">
+                    <h6 class="text-secondary">Agreement value</h6>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Rs.37.93 Crore"  formControlName="firstname">
+                    </div>
+                  </div>
+                  </div>
+                  <!-- <div class="row">
+                    <div class="col">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="male" value="m"
+                          formControlName="gender">
+                        <label class="form-check-label" for="male">Male</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="female" value="f"
+                          formControlName="gender">
+                        <label class="form-check-label" for="female">Female</label>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+                <br>
+
+                <div class="row">
+                <div class="col">
+                  <h6 class="text-secondary" >Expenditure</h6>
+                  <input type="text" class="form-control" placeholder="Rs.36.98 Crore" formControlName="firstname">
+                </div>
+                <div class="col">
+                  <h6 class="text-secondary" >PMC</h6>
+                  <input type="text" class="form-control" placeholder="Thiru.Jayan Durairathinam" formControlName="firstname">
+                </div>
+                </div>
+                <br>
+
+                <div class="row">
+                <div class="col">
+                  <h6 class="text-secondary" >Agreement Value</h6>
+                  <input type="text" class="form-control" placeholder="1.745% of work value + GST)" formControlName="firstname">
+                </div>
+                <div class="col">
+                  <h6 class="text-secondary" >Expenditure</h6>
+                  <input type="text" class="form-control" placeholder="Rs.51.25 lakhs" formControlName="firstname">
+                </div>
+                </div>
+                <br>
+
+                <div class="row">
+                <div class="col">
+                  <h6 class="text-secondary" >Pending Approval</h6>
+                  <input type="text" class="form-control" placeholder="Nil" formControlName="firstname">
+                </div>
+              </div>
+
+              <!-- <div class="row mt-3">
+                <div class="col">
+                  <select class="form-select" formControlName="education">
+                    <option value="default" selected>Select your Education</option>
+                    <option *ngFor="let option of educationOptions; let i = index;" value="{{i}}">
+                      {{option | titlecase}}
+                    </option>
+                  </select>
+                </div>
+              </div> -->
+
+              <!-- JOB INFORMATION -->
+              <div class="row mt-5">
+                <div class="col form-heading">
+                  <h6 class="text-secondary fst-italic">Other Details</h6>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <h6 class="text-secondary" >Gift Deed</h6>
+                  <input type="text" class="form-control" placeholder="OSR Land" formControlName="firstname">
+                </div>
+                <div class="col">
+                  <div class="row">
+                    <h6 class="text-secondary">Handling to local body</h6>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Handed over to GCC" formControlName="firstname">
+                    </div>
+                  </div>
+                  </div>
+
+                </div>
+                <br>
+
+                <div class="row">
+                <div class="col">
+                  <h6 class="text-secondary" >Costing Status</h6>
+                  <input type="text" class="form-control" placeholder="Costing status" formControlName="firstname">
+                </div>
+                <div class="col">
+                  <h6 class="text-secondary" >Total Units</h6>
+                  <input type="text" class="form-control" placeholder="108" formControlName="firstname">
+                </div>
+                </div>
+                <br>
+
+                <div class="row">
+                <div class="col">
+                  <h6 class="text-secondary" >Sold Units</h6>
+                  <input type="text" class="form-control" placeholder="26" formControlName="firstname">
+                </div>
+                <div class="col">
+                  <h6 class="text-secondary" >Unsold Units</h6>
+                  <input type="text" class="form-control" placeholder="32" formControlName="firstname">
+                </div>
+                </div>
+                <br>
+
+                <div class="row">
+                <div class="col">
+                  <h6 class="text-secondary" >Work LC Released</h6>
+                  <input type="text" class="form-control" placeholder="3697.64 lakhs" formControlName="firstname">
+                </div>
+              </div>
+
+              <div class="row mt-5">
+                <div class="col form-heading">
+                  <h6 class="text-secondary fst-italic">Date Details</h6>
+                </div>
+              </div>
+
+              <div class="row">
+              <div class="col">
+                <label for="datepicker" class="form-label">Site Handling Over</label>
+                <input type="date" class="form-control" placeholder="02.07.2020" id="datepicker" formControlName="birthday">
+              </div>
+              <div class="col">
+                <label for="datepicker" class="form-label">EOT upto</label>
+                <input type="date" class="form-control" placeholder="02.07.2020" id="datepicker" formControlName="birthday">
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col">
+                <label for="datepicker" class="form-label">Anticipated Completion</label>
+                <input type="date" class="form-control" placeholder="02.07.2020" id="datepicker" formControlName="birthday">
+              </div>
+              <div class="col">
+                <label for="datepicker" class="form-label">Due Date of Completion</label>
+                <br>
+                <input type="date" class="form-control" placeholder="02.07.2020" id="datepicker" formControlName="birthday">
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col">
+                <label for="datepicker" class="form-label">EB</label>
+                <input type="date" class="form-control" placeholder="02.07.2020" id="datepicker" formControlName="birthday">
+              </div>
+              <div class="col">
+                <label for="datepicker" class="form-label">Water/Sewage</label>
+                <input type="date" class="form-control" placeholder="02.07.2020" id="datepicker" formControlName="birthday">
+              </div>
+            </div>
+
+            <div class="row mt-5">
+              <div class="col form-heading">
+                <h6 class="text-secondary fst-italic">Building Image</h6>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col">
+                <label for="profile" class="form-label">Image</label>
+                <input type="file" class="form-control" id="profile" #fileInput>
+              </div>
+              <!-- <div class="col">
+                <h6 class="text-secondary" >Add Comments</h6>
+                <input type="text" class="form-control" placeholder="Comments Added" formControlName="firstname">
+              </div> -->
+            </div>
+            <!-- <div class="row mt-3">
+
+              <div class="col">
+                <h6 class="text-secondary" >Add Comments</h6>
+                <input type="text" class="form-control" placeholder="Comments Added" formControlName="firstname">
+              </div>
+            </div> -->
+            <br>
+            <div class="col-md-12 text-center">
+
+
+              <button type="submit">Update</button>
+            </div>
+            </form>
+
+          </div><!-- End Quote Form -->
+
+        </div>
+
+      </div>
+    </section><!-- End Get Started Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>TNHB</h3>
+              <p>
+                CMDA Complex, E&C Market Road,
+                Koyambedu,  <br>
+                Chennai - 600 107<br><br>
+                <strong>Phone:</strong>(044)24794201<br>
+                <strong>Email:</strong>contact@tnhb.com<br>
+              </p>
+              <div class="social-links d-flex mt-3">
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End footer info column-->
+
+          <!-- <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div> -->
+
+          <!-- <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Product Management</a></li>
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Graphic Design</a></li>
+            </ul> -->
+          <!-- </div> -->
+          <!-- End footer links column-->
+
+          <!-- <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Hic solutasetp</h4>
+            <ul>
+              <li><a href="#">Molestiae accusamus iure</a></li>
+              <li><a href="#">Excepturi dignissimos</a></li>
+              <li><a href="#">Suscipit distinctio</a></li>
+              <li><a href="#">Dilecta</a></li>
+              <li><a href="#">Sit quas consectetur</a></li>
+            </ul>
+          </div> -->
+          <!-- End footer links column-->
+
+          <!-- <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Nobis illum</h4>
+            <ul>
+              <li><a href="#">Ipsam</a></li>
+              <li><a href="#">Laudantium dolorum</a></li>
+              <li><a href="#">Dinera</a></li>
+              <li><a href="#">Trodelas</a></li>
+              <li><a href="#">Flexo</a></li>
+            </ul>
+          </div> -->
+          <!-- End footer links column-->
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal text-center position-relative">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>BOCXY</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
+
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
