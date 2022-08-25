@@ -2753,8 +2753,24 @@ section {
   border: none;
   background: #ffffff;
 }
+.faqs .card-header1 {
+  padding: 0;
+  border: none;
+  /* background: #ffe55c; */
+  background: #ffd84f;
+}
 
 .faqs .card-header a {
+  display: block;
+  padding: 10px 25px;
+  width: 100%;
+  color: #121518;
+  font-size: 16px;
+  line-height: 40px;
+  border: 1px solid rgba(0, 0, 0, .1);
+  transition: .5s;
+}
+.faqs .card-header1 a {
   display: block;
   padding: 10px 25px;
   width: 100%;
@@ -2769,7 +2785,21 @@ section {
   background: #fdbe33;
 }
 
+.faqs .card-header1 [data-toggle="collapse"][aria-expanded="true"] {
+  background: #fdbe33;
+}
+
+
 .faqs .card-header [data-toggle="collapse"]:after {
+  font-family: 'font Awesome 5 Free';
+  content: "\f067";
+  float: right;
+  color: #fdbe33;
+  font-size: 12px;
+  font-weight: 900;
+  transition: .5s;
+}
+.faqs .card-header1 [data-toggle="collapse"]:after {
   font-family: 'font Awesome 5 Free';
   content: "\f067";
   float: right;
@@ -2788,11 +2818,27 @@ section {
   font-weight: 900;
   transition: .5s;
 }
+.faqs .card-header1 [data-toggle="collapse"][aria-expanded="true"]:after {
+  font-family: 'font Awesome 5 Free';
+  content: "\f068";
+  float: right;
+  color: #030f27;
+  font-size: 12px;
+  font-weight: 900;
+  transition: .5s;
+}
 
 .faqs .card-body {
   padding: 20px 25px;
-  font-size: 20px;
+  font-size: px;
   background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, .1);
+  border-top: none;
+}
+.faqs .card1-body {
+  padding: 20px 25px;
+  font-size: px;
+  background: #fdbe33;
   border: 1px solid rgba(0, 0, 0, .1);
   border-top: none;
 }
